@@ -36,3 +36,10 @@ export const ButtonMain = styled.button`
         color: var(--neutral-color-600);
     }
 `;
+
+
+export const Iconify = styled.i`
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+`

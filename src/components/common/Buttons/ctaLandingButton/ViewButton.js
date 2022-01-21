@@ -1,10 +1,15 @@
-import React from 'react'
-import { ViewButtonMain } from './ViewButtonStyle'
-
+import React from "react";
+import { ViewButtonMain, Iconify } from "./ViewButtonStyle";
+import { ArrowDownIcon } from "../../../../resources/IndexResources";
 export default function ViewButton() {
-    return (
-        <>
-            <ViewButtonMain>VIEW PRODUTS </ViewButtonMain>   
-        </>
-    )
+  return (
+    <>
+      <ViewButtonMain>
+        VIEW PRODUTS
+        <Iconify>
+          <ArrowDownIcon />
+        </Iconify>
+      </ViewButtonMain>
+    </>
+  );
 }

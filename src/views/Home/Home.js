@@ -9,16 +9,27 @@ export default function Home() {
     <>
       <FlexGrid>
         <FlexGrid>
-          <Button value={"50.00"} icons={true} />
+          <Button
+            value={"50.00"}
+            icons={true}
+            mainColorIcon={"white"}
+            secondColorIcon={"url(#linear_color_main)"}
+          />
           <Button title={"Processing..."} classes={"processing"} />
-          <Button value={"00.00"} icons={true} disabled={"disabled"} />
+          <Button
+            value={"00.00"}
+            icons={true}
+            disabled={"disabled"}
+            mainColorIcon={"#8FA3BF"}
+            secondColorIcon={"white"}
+          />
         </FlexGrid>
         <FlexGrid>
           <ViewButton />
-          <SortButton  value={true}/>
+          <SortButton value={true} />
           <SortButton />
-          <NumButton/>
-          <NumButton value={true}/>
+          <NumButton />
+          <NumButton value={true} />
         </FlexGrid>
       </FlexGrid>
     </>
