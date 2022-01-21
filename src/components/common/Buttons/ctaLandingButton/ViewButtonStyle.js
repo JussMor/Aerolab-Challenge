@@ -5,15 +5,16 @@ export const ViewButtonMain = styled.button`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px 50px;
-    position: absolute;
-    weight: 278px;
+    padding: 16px 24px;
+    position: relative;
+    width: 278px;
     height: 80px;
     background: var(--default-brand-color);
     border-radius: 16px;
     border: 2px solid var(--default-brand-color);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05)
     cursor: pointer;
+
     
     font-style: normal;
     font-weight: 600;

@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonMain } from "./ButtonStyled";
+import { AerolabIcon } from "../../../../resources/IndexResources";
 
 export default function Button(props) {
   const { title, value, classes, disabled } = props;
@@ -9,7 +10,7 @@ export default function Button(props) {
     <>
       <ButtonMain className={`${classes}`} disabled={disabled}>
         {title}
-        {icons && <i>&nbsp;{"i"}&nbsp;</i>}
+        {icons && <AerolabIcon/>}
         {value}
       </ButtonMain>
     </>

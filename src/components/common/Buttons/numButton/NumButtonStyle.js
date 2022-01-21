@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
-export const SortButtonMain = styled.button`
+export const NumButtonMain = styled.button`
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 24px;
     position: relative;
-    width: 129px;
-    height: 43px;
+    width: 81px;
+    height: 35px;
     background: var(--default-brand-color);
     border-radius: 12px;
     border: 2px solid var(--default-brand-color);
@@ -20,8 +19,9 @@ export const SortButtonMain = styled.button`
     }
 
     &.no_selected {
-        width: 166px;
-        height: 43px;
+        width: 81px;
+        height: 35px;
+        border-radius: 12px;
         background: var(--neutral-color-200);
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
     }
@@ -35,7 +35,8 @@ export const TextButton = styled.span`
   line-height: 150%;
   color: var(--neutral-color-0);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-}
+  margin: 0px 10px;
+  
   &.no_selected {
     color: var(--neutral-color-0);
     background: var(--default-brand-color);
