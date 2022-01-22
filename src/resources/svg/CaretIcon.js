@@ -10,9 +10,9 @@ export const CaretIcon = () => {
       <path
         d="M9 4.5L16.5 12L9 19.5"
         stroke="#8FA3BF"
-        stroke-width="2.5"
-        stroke-linecap="square"
-        stroke-linejoin="bevel"
+        strokeWidth="2.5"
+        strokeLinecap="square"
+        strokeLinejoin="bevel"
       />
     </svg>
   );

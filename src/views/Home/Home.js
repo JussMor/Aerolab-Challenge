@@ -4,6 +4,8 @@ import Button from "../../components/common/Buttons/ctaButton/Button";
 import ViewButton from "../../components/common/Buttons/ctaLandingButton/ViewButton";
 import SortButton from "../../components/common/Buttons/sortButton/SortButton";
 import NumButton from "../../components/common/Buttons/numButton/NumButton";
+import AeroButton from "../../components/common/Buttons/aeroPlayButton/AeroButton";
+
 export default function Home() {
   return (
     <>
@@ -25,11 +27,15 @@ export default function Home() {
           />
         </FlexGrid>
         <FlexGrid>
-          <ViewButton />
+          <ViewButton/>
           <SortButton value={true} />
-          <SortButton />
-          <NumButton />
+          <SortButton/>
+          <NumButton/>
           <NumButton value={true} />
+        </FlexGrid>
+        <FlexGrid>
+          <AeroButton open={true}/>
+          <AeroButton open={false} value={"1000"}/>
         </FlexGrid>
       </FlexGrid>
     </>
